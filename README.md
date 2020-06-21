@@ -20,6 +20,6 @@ Uso: "python gather.py"
 
 
 ----------------------
-SITES FROM V1:
+SITES FROM V1/SITIOS DE LA V1:
 "https://free-proxy-list.net/anonymous-proxy.html"
 ----------------------
