@@ -3,7 +3,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from colorama import init, Fore, Back
-init(autoreset=True)
+init(autoreset=True) #Para que colorama resetee siempre el color ( a blanco ) sin tener que escribirlo nosotros
 
 #COMIENZO CREACIÓN FICHERO PROXIES.TXT
 print (Fore.CYAN+"[X]"+Fore.YELLOW+" Creando archivo"+Fore.MAGENTA+""" "proxies.txt" """)
@@ -63,3 +63,4 @@ print ("-"*30+"\n"+Back.WHITE+Fore.BLACK+"[X]Proxies conseguidos: "+Fore.RED+str
 
 for x in ippuertolista:
 	f.write(x)
+f.close()
